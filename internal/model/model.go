@@ -5,10 +5,7 @@ type RespondData struct {
 	Value string `json:"value"`
 	Status string `json:"status"`
 }
-type R struct {
-	storeMap map[string]string
 
-}
 type RespondStatus struct {
 	Status string `json:"status"`
 }
