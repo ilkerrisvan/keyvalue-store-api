@@ -1,0 +1,10 @@
+version: "3.7"
+
+services:
+  keyvalue-store:
+    container_name: keyvalue-store
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8000:8000"
